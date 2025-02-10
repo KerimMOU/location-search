@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ort-Suche</title>
+    <link rel="stylesheet" href="style.css" />
+    <style></style>
+  </head>
+  <body>
+    <form>
+      <h1>Ort-Suche</h1>
+
+      <div class="form-group">
+        <label for="city">Ort</label>
+        <input
+          type="text"
+          id="city"
+          placeholder="Geben Sie den Ort ein"
+          autocomplete="off"
+        />
+      </div>
+      <div id="suggestion"></div>
+      <div class="form-group">
+        <label for="postal-code">PLZ</label>
+        <input
+          type="text"
+          id="postalCode"
+          readonly
+          placeholder="PLZ wird hier angezeigt"
+          style="color: #a3a1a1"
+        />
+      </div>
+
+      <div class="form-group">
+        <label for="longitude">Longitude</label>
+        <input
+          type="text"
+          id="longitude"
+          readonly
+          placeholder="Longitude wird hier angezeigt"
+          style="color: #a3a1a1"
+        />
+      </div>
+
+      <div class="form-group">
+        <label for="latitude">Latitude</label>
+        <input
+          type="text"
+          id="latitude"
+          readonly
+          placeholder="Latitude wird hier angezeigt"
+          style="color: #a3a1a1"
+        />
+      </div>
+
+      <button id="newSearch">Neu Suche</button>
+    </form>
+
+    <script src="script.js"></script>
+  </body>
+</html>
