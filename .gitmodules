@@ -1,0 +1,3 @@
+[submodule "location-search"]
+	path = location-search
+	url = https://github.com/KerimMOU/location-search.git
